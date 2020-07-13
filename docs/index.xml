@@ -13,11 +13,24 @@
     
     <item>
       <title>Encargo 1</title>
-      <link>https://maxlara.github.io/docs/proyecto/encargo-1/</link>
+      <link>https://maxlara.github.io/docs/proyecto/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://maxlara.github.io/docs/proyecto/encargo-1/</guid>
+      <guid>https://maxlara.github.io/docs/proyecto/</guid>
       <description>Objetivos generales y específicos del Proyecto a realizar.</description>
+    </item>
+    
+    <item>
+      <title>Presentación Sistema de Riego</title>
+      <link>https://maxlara.github.io/docs/galeria-presentaci%C3%B3n/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>https://maxlara.github.io/docs/galeria-presentaci%C3%B3n/</guid>
+      <description>Presentación    A
+      B
+      C
+      D
+      E</description>
     </item>
     
     <item>
@@ -27,15 +40,6 @@
       
       <guid>https://maxlara.github.io/docs/fusion-360/</guid>
       <description>Modelos de Fusion 360</description>
-    </item>
-    
-    <item>
-      <title>Configuración</title>
-      <link>https://maxlara.github.io/docs/configuracion/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://maxlara.github.io/docs/configuracion/</guid>
-      <description>Tutorial de configuración básica del menú y otros elementos del tema.</description>
     </item>
     
   </channel>

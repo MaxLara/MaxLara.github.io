@@ -99,6 +99,10 @@
     </li>
     
     <li class="">
+      <a href="https://maxlara.github.io/tallerfabricacion/docs/encargo-3/">Encargo 3</a>
+    </li>
+    
+    <li class="">
       <a href="https://maxlara.github.io/tallerfabricacion/docs/ejemplo/">Ejemplo Shortcodes</a>
     </li>
     
@@ -120,6 +124,11 @@
 <ul>
 <li>Comprender el uso de corte en router CNC</li>
 </ul>
+<h5 id="mecanizado-cnc">Mecanizado CNC</h5>
+<p>El mecanizado CNC (Control Numérico Computarizado) es un proceso dedicado a la fabricación que tiene la particularidad de ser automatizado mediante softwares. El mecanizado trabaja con los 3 ejes (x,y,z). La mínima intervención humana hace que el término del producto sea muy certero con terminaciones bien acabadas. Las operaciones más comunes usan herramientas de corte rotatorio como cortadores y brocas o fresas.</p>
+<p><img src="/tallerfabricacion/img/cnc.jpg" alt="fotoplani"></p>
+<hr>
+<h5 id="silla-fresia">Silla Fresia</h5>
 <p>Para este encargo realizamos el mecanizado de corte CNC para la silla &ldquo;Fresia&rdquo;. Debido a la actualidad, pudimos realizar <strong>simulaciones de corte</strong> y así poder ver como quedarían las piezas para el posterior armado de la silla.</p>
 <div>
     <iframe 
@@ -146,10 +155,45 @@
     <source src="/tallerfabricacion/img/fresia0.mp4"  type="video/mp4">
     </video>
 </div>
+<h2 id="pasos-armado">Pasos armado</h2>
+<h4 id="1-crear-área-de-mecanizado">1. Crear área de mecanizado</h4>
+<ul>
+<li>Generar Stock (simulación de la plancha de terciado).</li>
+</ul>
+<h4 id="2-orden-piezas">2. Orden piezas</h4>
+<ul>
+<li>Ordenar piezas que se desean mecanizar.</li>
+<li>Optimizar el espacio disponible de la plancha (material finito).</li>
+</ul>
+<h4 id="3-setear-mecanizado">3. Setear mecanizado</h4>
+<ul>
+<li>Arreglar opciones generales (Tipo de máquina, punto de incio de la máquina, ejes de corte, orientación, entre otros).</li>
+<li>Definir fresa a utilizar.</li>
+<li>Definir recorrido o diseño que se quiere que la máquina realice.</li>
+<li>Editar cantidad de &ldquo;Passes&rdquo;
+<ul>
+<li>Debido al grosor del material y el largo de la fresa, se deben realizar mas &ldquo;passes&rdquo; que hace la fresa para hacer el corte del material. Esto se realiza para no generar un desgaste innecesario de la herramienta y asi evitar sufra algún daño.</li>
+</ul>
+</li>
+</ul>
+<h4 id="tabs">TABS</h4>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/tallerfabricacion/img/tabs.mp4"  type="video/mp4">
+    </video>
+</div>
+<p><strong>Es importante dejar &ldquo;Tabs&rdquo; al momento que la máquina realiza los cortes. Estos Tabs son pequeñas lengüetas que mantienen la pieza a cortar unida mínimamente a la plancha del material. La función que tienen es que no se desprenda bruscamente la pieza cortada causando un daño en la máquina, material o pieza.</strong></p>
+<h2 id="para-qué-es-necesario-dejar-los-mecanizados-con-las-orejas">¿Para qué es necesario dejar los mecanizados con las &ldquo;orejas&rdquo;?</h2>
+<p><img src="/tallerfabricacion/img/oreja.jpg" alt="fotoplani"></p>
+<p>Las &ldquo;orejas&rdquo; son estos espacios que se generan con terminaciones redondas donde se encaja cada parte de la silla. Quedan espacios con terminaciones redondas debido que al ser una fresa redonda la que realiza los cortes no puede realiazar terminaciones rectas si es que las hace &ldquo;interiormente&rdquo;. Para que puedan calzar de manera exacta los encajes de la silla se genera esta forma que ayuda a que no queden flotando en el espacio de enlace.</p>
+<p><img src="/tallerfabricacion/img/orejas.jpg" alt="fotoplani"></p>
 <hr>
 <!-- raw HTML omitted -->
 <h3 id="simulaciones-cortes-cnc">Simulaciones cortes CNC</h3>
-<p>Una vez hecho el proceso anterior, se pueden llevar a cabo simulaciones de corte. Es necesario &ldquo;setear&rdquo; las opciones de corte como l<strong>a fresa, cantidad y distancia de taps, profundidad de corte</strong>, entre otros.</p>
+<p>Una vez hechos los procesos anteriores, se pueden llevar a cabo simulaciones de corte. Es necesario &ldquo;setear&rdquo; las opciones de corte como <strong>la fresa, cantidad y distancia de tabs, profundidad de corte</strong>, entre otros como se mencionó anteriormente.</p>
 <p><div>
     <video 
     width="100%" 
@@ -283,33 +327,33 @@
       <div class="pswp__item"></div>
     </div>
     
-    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp_ui pswp_ui--hidden">
     <div class="pswp__top-bar">
       
       <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      <button class="pswp_button pswp_button--close" title="Close (Esc)"></button>
+      <button class="pswp_button pswp_button--share" title="Share"></button>
+      <button class="pswp_button pswp_button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp_button pswp_button--zoom" title="Zoom in/out"></button>
       
       
       <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
+        <div class="pswp_preloader_icn">
+          <div class="pswp_preloader_cut">
+            <div class="pswp_preloader_donut"></div>
           </div>
         </div>
       </div>
     </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+    <div class="pswp_share-modal pswpshare-modal--hidden pswp_single-tap">
       <div class="pswp__share-tooltip"></div>
     </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    <button class="pswp_button pswp_button--arrow--left" title="Previous (arrow left)">
     </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    <button class="pswp_button pswp_button--arrow--right" title="Next (arrow right)">
     </button>
     <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
+      <div class="pswp_caption_center"></div>
     </div>
     </div>
     </div>

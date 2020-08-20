@@ -39,12 +39,21 @@
     </item>
     
     <item>
-      <title>Encargo 4</title>
+      <title>Encargo 4 &#43; Bonus</title>
       <link>https://maxlara.github.io/tallerfabricacion/docs/encargo-4/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://maxlara.github.io/tallerfabricacion/docs/encargo-4/</guid>
-      <description>Modelado en Fusion 360 de maceteros ecológicos</description>
+      <description>Investigación de Materiales y elaboración de recipientes biodegradables</description>
+    </item>
+    
+    <item>
+      <title>Encargo 5</title>
+      <link>https://maxlara.github.io/tallerfabricacion/docs/encargo-5/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://maxlara.github.io/tallerfabricacion/docs/encargo-5/</guid>
+      <description>Modelado en Fusion 360 de maceteros ecológicos + Moldes</description>
     </item>
     
   </channel>
